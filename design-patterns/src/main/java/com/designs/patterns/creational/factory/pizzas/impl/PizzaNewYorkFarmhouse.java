@@ -10,15 +10,15 @@ public class PizzaNewYorkFarmhouse extends Pizza {
     }
 
     public void pizzaBase() {
-        System.out.println("Pizza Base for Veggie Feast Pizza in New York Style.");
+        System.out.println("Pizza Base for Farmhouse Pizza in New York Style.");
     }
 
     public void pizzaSauce() {
-        System.out.println("Pizza Sauce for Veggie Feast Pizza in New York Style.");
+        System.out.println("Pizza Sauce for Farmhouse Pizza in New York Style.");
     }
 
     public void pizzaToppings() {
-        System.out.println("Pizza Toppings for Veggie Feast Pizza in New York Style.");
+        System.out.println("Pizza Toppings for Farmhouse Pizza in New York Style.");
     }
 
 }
