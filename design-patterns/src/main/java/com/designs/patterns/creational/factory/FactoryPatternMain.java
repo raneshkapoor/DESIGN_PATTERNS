@@ -13,9 +13,7 @@ public class FactoryPatternMain {
 
         Pizza pizza = factory.getPizza(PizzaType.FARMHOUSE);
 
-        pizza.pizzaBase();
-        pizza.pizzaSauce();
-        pizza.pizzaToppings();
+        pizza.make();
 
     }
 

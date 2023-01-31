@@ -14,6 +14,12 @@ public abstract class Pizza {
         this.pizzaType = pizzaType;
     }
 
+    public void make() {
+        pizzaBase();
+        pizzaSauce();
+        pizzaToppings();
+    }
+
     public abstract void pizzaBase();
 
     public abstract void pizzaSauce();
