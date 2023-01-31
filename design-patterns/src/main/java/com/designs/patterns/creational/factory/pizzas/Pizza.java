@@ -1,11 +1,23 @@
 package com.designs.patterns.creational.factory.pizzas;
 
-public interface Pizza {
+import com.designs.patterns.creational.factory.pizzas.enums.PizzaType;
 
-    public void pizzaBase();
+public abstract class Pizza {
 
-    public void pizzaSauce();
+    private PizzaType pizzaType = PizzaType.NONE;
 
-    public void pizzaToppings();
+    public PizzaType getPizzaType() {
+        return pizzaType;
+    }
+
+    public void setPizzaType(PizzaType pizzaType) {
+        this.pizzaType = pizzaType;
+    }
+
+    public abstract void pizzaBase();
+
+    public abstract void pizzaSauce();
+
+    public abstract void pizzaToppings();
 
 }
